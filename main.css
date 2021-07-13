@@ -6,17 +6,6 @@ html, body{
     position: static;
 }
 
-#app {
-    
-    width: fit-content;
-    /*
-    align-items: center;
-    width: 25%;
-    height: 25%;
-    z-index: 1;
-    */
-} 
-
 #runner {
     vertical-align: middle;
 

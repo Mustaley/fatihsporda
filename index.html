@@ -16,12 +16,15 @@
         <div id="game-box" >
                 <img id="runner" src=".\static\fatih\1.png" alt="" style="padding-left: 0.25px">
                 <img id="runningground" src=".\static\runningground.png" alt="">
-                <button> Tıkla ve fatih'in koşturmasını izle</button>
             </div> 
         </div>
-        <div  hidden>
+        <div  >
             <h1 id="scoreboard"> 0sc</h1>
             <h1 id="clickcounter"> clicked 0 times so far</h1>
+            <div id="game-state" style="display: none;" >
+                <h1>Fatihi yeterince iyi koşturamadın</h1>
+                <button onclick="location.reload()">Yeniden dene</button>
+            </div>
         </div>
     </div>
 
